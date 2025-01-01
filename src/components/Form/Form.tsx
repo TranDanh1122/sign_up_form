@@ -9,7 +9,7 @@ const Field = [
     { name: "password", placeHolder: "Password" },
 ]
 const Form: React.FC = (): React.JSX.Element => {
-    const { valid, isValidField, isValidForm }: any = useFormValidate({
+    const { valid, isValidForm }: any = useFormValidate({
         first_name: { isValid: true, errorText: null },
         last_name: { isValid: true, errorText: null },
         email: { isValid: true, errorText: null },
